@@ -69,4 +69,4 @@ See [GitLab Document](https://docs.gitlab.com/ee/development/internal_analytics/
 
 This project is licensed under the WTFPL License.
 
-Copyrigth (c) 2023, Tim Cook, All Rights Not Reserved.
+Copyrigth (c) 2024, Offensive Security Operations Center, All Rights Not Reserved.
