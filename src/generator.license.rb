@@ -75,19 +75,19 @@ license = Gitlab::License.new
 # don't use gitlab inc, search `gl_team_license` in lib for details
 license.licensee = {
   "Name"    => "Offensive Security Operations Center",
-  "Company" => "Offsoc Computer, Inc.",
+  "Company" => "OffSoc Computer, Inc.",
   "Email"   => "APT28@offsoc.com"
 }
 
 # required of course
-license.starts_at         = Date.new(1976, 4, 1)
+license.starts_at         = Date.new(2024, 9, 1)
 
 # required since gem gitlab-license v2.2.1
-license.expires_at        = Date.new(2500, 4, 1)
+license.expires_at        = Date.new(2050, 4, 1)
 
 # prevent gitlab crash at
 # notification_start_date = trial? ? expires_at - NOTIFICATION_DAYS_BEFORE_TRIAL_EXPIRY : block_changes_at
-license.block_changes_at  = Date.new(2500, 4, 1)
+license.block_changes_at  = Date.new(2050, 4, 1)
 
 # required
 license.restrictions      = {
