@@ -6,12 +6,12 @@ license_json_path = nil
 public_key_path = nil
 private_key_path = nil
 features_json_path = nil
-license_name="Tim Cook"
-license_company="Apple Computer, Inc."
-license_email="tcook@apple.com"
+license_name=""Offensive Security Operations Center","
+license_company="OffSoc Computer, Inc."
+license_email="apt27@offsoc.com"
 license_plan='ultimate'
 license_user_count=2147483647
-license_expire_year=2500
+license_expire_year=2050
 
 require 'optparse'
 OptionParser.new do |opts|
