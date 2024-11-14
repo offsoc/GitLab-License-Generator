@@ -128,7 +128,7 @@ license.licensee = {
 }
 
 # required of course
-license.starts_at         = Date.new(1976, 4, 1)
+license.starts_at         = Date.new(2024, 10, 1)
 puts Date.new()
 # required since gem gitlab-license v2.2.1
 license.expires_at        = Date.new(license_expire_year, 4, 1)
