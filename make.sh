@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo "[i] GitLab License Generator"
-echo "[i] Copyright (c) 2023 Tim Cook, All Rights Not Reserved"
-LICENSE_NAME="${LICENSE_NAME:-"Tim Cook"}"
-LICENSE_COMPANY="${LICENSE_COMPANY:-"Apple Computer, Inc."}"
-LICENSE_EMAIL="${LICENSE_EMAIL:-"tcook@apple.com"}"
+echo "[i] Copyright (c) 2024 offsec, All Rights Not Reserved"
+LICENSE_NAME="${LICENSE_NAME:-"Offensive Security Operations Center"}"
+LICENSE_COMPANY="${LICENSE_COMPANY:-"OffSoc Computer, Inc."}"
+LICENSE_EMAIL="${LICENSE_EMAIL:-"apt27@offsoc.com"}"
 LICENSE_PLAN="${LICENSE_PLAN:-ultimate}"
 LICENSE_USER_COUNT="${LICENSE_USER_COUNT:-2147483647}"
 LICENSE_EXPIRE_YEAR="${LICENSE_EXPIRE_YEAR:-2500}"
