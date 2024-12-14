@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "[i] GitLab License Generator"
-echo "[i] Copyright (c) 2023 Tim Cook, All Rights Not Reserved"
+echo "[i] Copyright (c) 2024 offsec, All Rights Not Reserved"
 LICENSE_NAME="${LICENSE_NAME:-"Tim Cook"}"
 LICENSE_COMPANY="${LICENSE_COMPANY:-"Apple Computer, Inc."}"
 LICENSE_EMAIL="${LICENSE_EMAIL:-"tcook@apple.com"}"
