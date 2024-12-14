@@ -17,7 +17,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: |
-          chmod +x ./make.sh
           ./make.sh
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
