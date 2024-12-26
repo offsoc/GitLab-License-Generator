@@ -148,8 +148,17 @@ license.restrictions      = {
   # required, just dont overflow
 }
 
+# 设定许可证的附加属性
 license.cloud_licensing_enabled = true
 license.offline_cloud_licensing_enabled = true
+license.auto_renew_enabled = true # 修改为 true
+license.seat_reconciliation_enabled = true # 修改为 true
+license.operational_metrics_enabled = true # 修改为 true
+license.contract_overages_allowed = true
+license.generated_from_customers_dot = true # 修改为 true
+license.generated_from_cancellation = true # 修改为 true
+license.temporary_extension = true # 修改为 true
+
 
 # restricted_attr will access restrictions
 # add_ons will access restricted_attr(:add_ons, {})
